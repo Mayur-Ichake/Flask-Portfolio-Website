@@ -11,7 +11,6 @@ def home():
         user_message = request.form['message']
         message = f"Thank you {name}! Your message has been received."
 
-    # open your html file manually
     with open("index.html") as file:
         html = file.read()
 
