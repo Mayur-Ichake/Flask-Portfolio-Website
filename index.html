@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hello! I'm <b>Mayur Ichake</b>, a Python Developer and AI-ML Enthusiast.</p>
+
+    <h2>My Projects</h2>
+    <ul>
+        <li>Smart Tomato Cutting & Health Detection Robot</li>
+        <li>Edge AI-Based Fall Detection System</li>
+        <li>Krishi Suraksha - Animal Intrusion Alert System</li>
+    </ul>
+
+    <hr>
+
+    <h2>Contact Me</h2>
+    <form method="POST">
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Message:</label><br>
+        <textarea name="message" rows="4" cols="30" required></textarea><br><br>
+
+        <input type="submit" value="Send">
+    </form>
+
+    {% if message %}
+        <p class="success">{{ message }}</p>
+    {% endif %}
+</body>
+</html>
