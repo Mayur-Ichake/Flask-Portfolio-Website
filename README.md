@@ -1,2 +1,2 @@
-# Flask-Portfolio-Website
-A simple personal portfolio website built using Flask, HTML, and CSS for the Elevate Lab internship project.
+# Flask-Portfolio-Website (Elevate Lab – Internship Task 6)
+
